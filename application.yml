@@ -13,13 +13,13 @@ spring:
       ddl-auto: create-drop
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
+        dialect: org.hibernate.dialect.PostgresSQLDialect
         format_sql: true
     show-sql: true
 
   mail:
     host: localhost
-    port: 1025
+    port: 5432
     username: hello
     password: hello
 
